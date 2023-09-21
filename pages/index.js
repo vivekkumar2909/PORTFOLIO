@@ -11,8 +11,6 @@ import {
 
 import Image from "next/image";
 import wave from "../public/dev-ed-wave.png"
-import design from "../public/design.png";
-import code from "../public/code.png";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
@@ -21,6 +19,9 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import { useState } from "react";
 import Skill from "./components/Skill";
+
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,10 +37,13 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=" select-auto bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900 dark:text-white  ">
+      <main className="select-none bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900 dark:text-white  ">
         <section className=" min-h-screen">
           <nav className="p-10 mb-12 flex justify-between ">
-            <h1 className=" text-xl font-burtons">DEVELOPER</h1>
+            <div>
+              <h1 className=" text-xl font-burtons">DEVELOPER</h1>
+
+            </div>
             <ul className=" flex items-center ">
               <li>
                 <BsFillMoonStarsFill
@@ -63,8 +67,15 @@ export default function Home() {
               Vivek Shah
             </h2>
             <h3 className="text-2xl py-2 md:text-xl">Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-700 md:text-xl max-w-lq mx-auto dark:text-white">
-              shxbxjnijqe.ml,xoijidmkjdjchpuihjkmsx;inecmjiehjnmxniihjdkm
+            <p className="text-md  py-5 leading-8 text-gray-700 md:text-xl max-w-lq mx-auto dark:text-white">
+              Hey! I'm [Your Name], a Next.js developer known for my mastery of data structures, creative problem-solving,
+              unwavering computer enthusiasm, and exceptional communication skills.
+              With a deep understanding of data structures and a knack for blending logic and creativity,
+              I excel at crafting elegant and efficient solutions in the ever-evolving world of software development.
+              My journey is defined by a relentless pursuit of excellence,
+              both in code and in my commitment to pushing the boundaries of what technology can achieve. Furthermore,
+              my strong communication skills enable me to collaborate effectively,
+              convey complex ideas clearly, and foster a cohesive team environment for successful project execution.
             </p>
           </div>
 
@@ -90,112 +101,39 @@ export default function Home() {
         <section>
           <div>
             <h1 className="text-3xl py-1">Introduction</h1>
-            <p className="text-md leading-8 text-gray-500  dark:text-white ">
+            <p className="text-md leading-8 text-black  dark:text-white ">
               {" "}
-              bxulyy g;dbna9 uj dnl d js lsjcc hfuewd he8fhdncuuun edhushbbu
-              sbxw uo gudhuxh hdwnupdu 32 h3iham, lrem23 cheqied h3uh
+              Hello, I'm <strong>Vivek Kumar</strong>, a dedicated computer science student with an unwavering enthusiasm for all things related
+              to computers and
+              technology. My journey in the world of computing has been an exciting one,
+              characterized by a constant quest for knowledge and a genuine passion for problem-solving.
             </p>
           </div>
-          {/* <div className="lg:flex gap-10">
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10">
-              <Image
-                className="text-center"
-                src={design}
-                width={100}
-                height={100}
-              />
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful design
-              </h3>
-              <div className=" dark:text-white">
-                <p className="py-2">
-                  Creating elegant design suited for needs design theory
-                </p>
-                <h4 className="text-teal-500 py-4">Skills Which I have</h4>
-                <p className="text-gray-600 py-1 dark:text-white  ">C++</p>
-                <p className="text-gray-600 py-1 dark:text-white">NeXt JS</p>
-                <p className="text-gray-600 py-1 dark:text-white">Node</p>
-                <p className="text-gray-600 py-1 dark:text-white">JavaScript</p>
-                <p className="text-gray-600 py-1 dark:text-white ">Python</p>
-                <p className="text-gray-600 py-1 dark:text-white ">JavaScript</p>
-              </div>
-
-            </div>
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10">
-              <Image
-                className="text-center"
-                src={code}
-                width={100}
-                height={100}
-              />
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful design
-              </h3>
-              <p className="py-2">
-                Creating elegant design suited for needs design theory
-              </p>
-              <h4 className="text-teal-500 py-4">Skills Which I have</h4>
-              <p className="text-gray-600 py-1">C++</p>
-              <p className="text-gray-600 py-1">NeXt JS</p>
-              <p className="text-gray-600 py-1">Node</p>
-              <p className="text-gray-600 py-1">JavaScript</p>
-              <p className="text-gray-600 py-1">Python</p>
-              <p className="text-gray-600 py-1">JavaScript</p>
-            </div>
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10">
-              <Image
-                className="text-center"
-                src={design}
-                width={100}
-                height={100}
-              />
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful design
-              </h3>
-              <p className="py-2">
-                Creating elegant design suited for needs design theory
-              </p>
-              <h4 className="text-teal-500 py-4">Skills Which I have</h4>
-              <p className="text-gray-600 py-1">C++</p>
-              <p className="text-gray-600 py-1">NeXt JS</p>
-              <p className="text-gray-600 py-1">Node</p>
-              <p className="text-gray-600 py-1">JavaScript</p>
-              <p className="text-gray-600 py-1">Python</p>
-              <p className="text-gray-600 py-1">JavaScript</p>
-            </div> */}
-          {/* </div> */}
-
-
-           
-
         </section>
-        
-
-            <div className="text-2xl mt-2 mb-2"> SKILLS</div>
+        <div className="font-bold mt-2 mb-2 text-2xl  "> Skills</div>
 
         <section>
-              <div className=" justify-between  p-50 items-center text-3xl shadow-md  rounded-lg "> 
-              <Skill/>
-              </div>
+          <div className="  justify-between pb-10 pt-5 pl-20 items-center  shadow-md  rounded-lg ">
+            <Skill />
+          </div>
         </section>
 
         <section>
           <div>
-            <h3 className="text-3xl py-1">Project</h3>
+            <h3 className="text-3xl pb-1 pt-2 mt-3">Project</h3>
             <p className="text-md leading-8  py-2 text-gray-800  dark:text-white ">
-              nxabyugcna uhd ydhhiijww8d8 3hxuhjidn udh 33h38hnjsjn
-              ndchuhehhnsnsnxuhcjdndc cuqies m xuiu9uejenf dcnjdijc njija
-              cmjncennn
+              In the digital age, showcasing your work is essential, whether you're a designer, developer, artist, or entrepreneur.
+              Our Next.js and Tailwind CSS-powered project section is designed to help you elegantly display your portfolio, achievements,
+              or any collection of projects you're proud of. With the power of Next.js for seamless navigation and
             </p>
 
-            <p className="text-md leading-8  py-2 text-gray-800  dark:text-white">
-              nxabyugcna uhd ydhhiijww8d8 3hxuhjidn udh 33h38hnjsjn
-              ndchuhehhnsnsnxuhcjdndc cuqies m xuiu9uejenf dcnjdijc njija
-              cmjncennn
+            <p className="text-md leading-8 justify-between text-justify text-gray-800  dark:text-white">
+              Tailwind CSS for beautiful, responsive styling, your projects will shine like never before. In this section, we'll guide you through the process of creating a dynamic and visually appealing project display,
+              ensuring that your work gets the attention it deserves. Let's dive in and bring your projects to life on the web!
             </p>
           </div>
-          <div className="flex flex-col py-10 gap-10 shadow-lg p-10 rounded-2xl pb-10 mb-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl">
+          <div className="flex flex-col grid-cols-3 py-10 gap-10 shadow-lg p-10 rounded-2xl pb-10 mb-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1 shadow-lg  rounded-xl hover:scale-110 duration-300 ">
               <Image
                 src={web1}
                 className="rounded-lg object-cover"
@@ -204,7 +142,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl">
+            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl hover:scale-110 duration-300">
               <Image
                 src={web2}
                 className="rounded-lg object-cover"
@@ -213,7 +151,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl">
+            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl hover:scale-110 duration-300">
               <Image
                 src={web3}
                 className="rounded-lg object-cover"
@@ -222,7 +160,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl">
+            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl hover:scale-110 duration-300">
               <Image
                 src={web4}
                 className="rounded-lg object-cover"
@@ -231,7 +169,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl">
+            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl hover:scale-110 duration-300">
               <Image
                 src={web5}
                 className="rounded-lg object-cover"
@@ -240,7 +178,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl">
+            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl hover:scale-110 duration-300">
               <Image
                 src={web6}
                 className="rounded-lg object-cover"
