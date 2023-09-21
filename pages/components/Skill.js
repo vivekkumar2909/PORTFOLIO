@@ -20,7 +20,7 @@ export default function Skill() {
         <div className="z-50 items-center w-max   p-2 gap-10  text-white ">
             <div className=" m-auto flex  sm:flex-row justify-between gap-10 md:flex-col-3 lg:flex-col-3">
                 <div>
-                    <div data-aos = "fade-left" className=" w-96 m-2 bg-black p-2 px-2 rounded-lg shadow-black shadow-md dark:bg-gray-700 dark:text-white  ">
+                    <div data-aos = "fade-left"  className=" w-96 m-2 bg-black p-2 px-2 rounded-lg shadow-black shadow-md dark:bg-gray-700 dark:text-white  ">
                         <p className="mb-1"> C++ </p>
                         <ProgressBar completed={91} bgColor='#2896b2' animateOnRender={true} />
                     </div>
