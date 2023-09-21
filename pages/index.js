@@ -19,6 +19,7 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import { useState } from "react";
 import Skill from "./components/Skill";
+import About from "./About";
 
 
 
@@ -37,13 +38,14 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="select-none bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900 dark:text-white  ">
+      <main className=" select-none bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900 dark:text-white  ">
         <section className=" min-h-screen">
           <nav className="p-10 mb-12 flex justify-between ">
             <div>
               <h1 className=" text-xl font-burtons">DEVELOPER</h1>
 
             </div>
+            <div className="text-xl font-semibold"><a href="About">About</a></div>
             <ul className=" flex items-center ">
               <li>
                 <BsFillMoonStarsFill
@@ -110,7 +112,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <div className="font-bold mt-2 mb-2 text-2xl  "> Skills</div>
+        <div className=" from-inherit mt-2 mb-2 text-3xl  "> Skills</div>
 
         <section>
           <div className="  justify-between pb-10 pt-5 pl-20 items-center  shadow-md  rounded-lg ">
@@ -118,7 +120,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section >
           <div>
             <h3 className="text-3xl pb-1 pt-2 mt-3">Project</h3>
             <p className="text-md leading-8  py-2 text-gray-800  dark:text-white ">
@@ -132,7 +134,7 @@ export default function Home() {
               ensuring that your work gets the attention it deserves. Let's dive in and bring your projects to life on the web!
             </p>
           </div>
-          <div className="flex flex-col grid-cols-3 py-10 gap-10 shadow-lg p-10 rounded-2xl pb-10 mb-10 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col grid-cols-3 py-10 dark:bg-gray-900 gap-10 shadow-lg p-10 rounded-2xl pb-10  lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 shadow-lg  rounded-xl hover:scale-110 duration-300 ">
               <Image
                 src={web1}
@@ -188,7 +190,16 @@ export default function Home() {
               />
             </div>
           </div>
+          <div className="h-10 dark:bg-gray-900"></div>
+
         </section>
+
+        {/* <section className= "grid gap-10 md:grid-cols-3 p-10 md:mx-96 md:items-center ">
+          <div>Email</div>
+          <div>Scroll Up</div>
+          <div>About</div>
+        </section>
+        <div className="h-10 dark:bg-gray-900"></div> */}
       </main>
     </div>
   );

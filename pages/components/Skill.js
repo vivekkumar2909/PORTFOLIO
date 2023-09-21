@@ -17,22 +17,22 @@ export default function Skill() {
 
 
     return (
-        <div className="z-50 items-center w-max   p-2 gap-10 text-slate-50  ">
+        <div className="z-50 items-center w-max   p-2 gap-10  text-white ">
             <div className=" m-auto flex  sm:flex-row justify-between gap-10 md:flex-col-3 lg:flex-col-3">
                 <div>
-                    <div data-aos = "fade-left" className=" w-96 m-2 bg-gray-400 p-2 px-2 rounded-lg shadow-black shadow-md dark:bg-gray-700 dark:text-white  ">
+                    <div data-aos = "fade-left" className=" w-96 m-2 bg-black p-2 px-2 rounded-lg shadow-black shadow-md dark:bg-gray-700 dark:text-white  ">
                         <p className="mb-1"> C++ </p>
                         <ProgressBar completed={91} bgColor='#2896b2' animateOnRender={true} />
                     </div>
-                    <div data-aos = "fade-left" className=" w-96 m-2 bg-gray-400 p-2 rounded-lg shadow-black shadow-md dark:bg-gray-700 dark:text-white">
+                    <div data-aos = "fade-left" className=" w-96 m-2 bg- p-2 rounded-lg bg-black shadow-black shadow-md dark:bg-gray-700 dark:text-white">
                         <p className="mb-1"> Java </p>
                         <ProgressBar completed={75} bgColor='#2896b2' animateOnRender={true} />
                     </div>
-                    <div  data-aos = "fade-left" className=" w-96 m-2 bg-gray-400 p-2 rounded-lg shadow-black shadow-md dark:bg-gray-700 dark:text-white">
+                    <div  data-aos = "fade-left" className=" w-96 m-2 bg- p-2 rounded-lg bg-black shadow-black shadow-md dark:bg-gray-700 dark:text-white">
                         <p className="mb-1"> Node JS </p>
                         <ProgressBar completed={83} bgColor='#2896b2' animateOnRender={true} />
                     </div>
-                    <div data-aos = "fade-left" className=" w-96 m-2 bg-gray-400 p-2 rounded-lg shadow-black shadow-md dark:bg-gray-700 dark:text-white">
+                    <div data-aos = "fade-left" className=" w-96 m-2 bg- p-2 rounded-lg bg-black shadow-black shadow-md dark:bg-gray-700 dark:text-white">
                         <p className="mb-1"> Python </p>
                         <ProgressBar completed={80} bgColor='#2896b2' animateOnRender={true} />
                     </div>
@@ -44,19 +44,19 @@ export default function Skill() {
                     </div>
                 </div>
                 <div className="">
-                    <div data-aos = "fade-right"  className=" w-96 m-2 bg-gray-400 p-2 rounded-lg shadow-black shadow-md dark:bg-gray-700 dark:text-white">
+                    <div data-aos = "fade-right"  className=" w-96 m-2 bg- p-2 rounded-lg bg-black shadow-black shadow-md dark:bg-gray-700 dark:text-white">
                         <p className="mb-1"> React </p>
                         <ProgressBar completed={85} bgColor='#2896b2' animateOnRender={true} />
                     </div>
-                    <div  data-aos = "fade-right" className=" w-96 m-2 bg-gray-400 p-2 rounded-lg shadow-black shadow-md dark:bg-gray-700 dark:text-white">
+                    <div  data-aos = "fade-right" className=" w-96 m-2 bg- p-2 rounded-lg bg-black shadow-black shadow-md dark:bg-gray-700 dark:text-white">
                         <p className="mb-1"> Next Js </p>
                         <ProgressBar completed={82} bgColor='#2896b2' animateOnRender={true} />
                     </div>
-                    <div data-aos = "fade-right" className=" w-96 m-2 bg-gray-400 p-2 rounded-lg shadow-black shadow-md dark:bg-gray-700 dark:text-white">
+                    <div data-aos = "fade-right" className=" w-96 m-2 bg- p-2 rounded-lg bg-black shadow-black shadow-md dark:bg-gray-700 dark:text-white">
                         <p className="mb-1"> MySql </p>
                         <ProgressBar completed={74} bgColor='#2896b2' animateOnRender={true} />
                     </div>
-                    <div data-aos = "fade-right" className=" w-96 m-2 bg-gray-400 p-2 rounded-lg shadow-black shadow-md dark:bg-gray-700 dark:text-white">
+                    <div data-aos = "fade-right" className=" w-96 m-2 bg- p-2 rounded-lg bg-black  shadow-black shadow-md dark:bg-gray-700 dark:text-white">
                         <p className="mb-1"> Tailwind </p>
                         <ProgressBar completed={85} bgColor='#2896b2' animateOnRender={true} />
                     </div>
